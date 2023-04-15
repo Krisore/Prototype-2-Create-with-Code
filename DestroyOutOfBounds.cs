@@ -27,7 +27,7 @@ public class DestroyOutOfBounds : MonoBehaviour
                 Destroy(gameObject);
                 break;
             case < -SideBoundary:
-                Debug.Log("Game Over");
+                Debug.Log("Game Over!");
                 Destroy(gameObject);
                 break;
         }
